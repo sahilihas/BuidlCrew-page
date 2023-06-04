@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #f1ebeb;
+  }
+  
+  a {
+    color: #f4f0f0;
+    text-decoration: crimson;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #161516;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background-image: url('Lumos-Labs-Logo.webp'); /* Replace with your hero image */
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ebe1e1;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  section ul li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  section#contact form input,
+  section#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  section#contact form button {
+    background-color: #6d076d;
+    color: #fff;
+    padding: 10px 20px;
+    border: tomato;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  section#contact form button:hover {
+    background-color: #555;
+  }
+
+  body {
+    background-image: url('Web\ capture_5-6-2023_1284_www.lumoslabs.co.jpeg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(54, 57, 58, 0.5); /* Adjust the alpha value (last parameter) to control the fade effect */
+    
+}
+
+.buttonNotch{
+    background: linear-gradient(-45deg, transparent 15px, #01C3F1 0, #2BF2FF);
+    background-repeat: no-repeat;
+    transition: all .3s ease-in-out;
+    will-change: transform;
+    
+  }
+  
+  
+  /* Button Hover Effects */
+  .btn {
+    display: inline-block;
+    background-color: #450985;
+    color: #eae4e4;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #cec513;
+  }
+  
+  /* Sliding Button */
+  .sliding-button {
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: right 0.3s ease;
+    z-index: 999;
+  }
+  
+  .sliding-button:hover {
+    right: 20px;
+  }
+  
