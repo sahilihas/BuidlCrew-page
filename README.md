@@ -1,5 +1,4 @@
 # BuidlCrew-page
-# BUIDL Landing Page
 
 Welcome to the BUIDL Landing Page repository! This landing page is designed to showcase the BUIDL project using HTML, CSS, and JavaScript.
 
@@ -37,7 +36,7 @@ To run the BUIDL Landing Page on your local machine, you need the following prer
 To install the BUIDL Landing Page, simply clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/buidl-landing-page.git
+git clone https://github.com/your-username/buidl-page.git
 ```
 
 Alternatively, you can download the repository as a ZIP file and extract it to your desired location.
